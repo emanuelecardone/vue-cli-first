@@ -1,19 +1,19 @@
 <template>
   <div id="app">
-    <MyNewTitle />
-    <MyNewBanner />
+    <Title />
+    <Hero />
   </div>
 </template>
 
 <script>
-import MyNewTitle from "./components/MyNewTitle.vue";
-import MyNewBanner from "./components/MyNewBanner.vue";
+import Title from "./components/Title.vue";
+import Hero from "./components/Hero.vue";
 
 export default {
   name: "App",
   components: {
-    MyNewTitle,
-    MyNewBanner
+    Title,
+    Hero
   },
 };
 </script>

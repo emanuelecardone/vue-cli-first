@@ -9,7 +9,7 @@
 
 <script>
 export default {
-    name: 'MyNewBanner',
+    name: 'Hero',
     data: function(){
         return {
             bannerTitle: 'La Casa de Papel',

@@ -9,7 +9,7 @@
 <script> 
 
 export default{
-    name: 'MyNewTitle',
+    name: 'Title',
     data: function(){
         return {
             titleText: 'La mia prima app con Vue CLI!'
